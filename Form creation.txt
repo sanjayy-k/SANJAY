@@ -1,55 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Grid Layout</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    header, footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 10px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
-
-    .item {
-      background-color: #f0f0f0;
-      padding: 20px;
-      text-align: center;
-    }
-  </style>
+    <title>HTML Form</title>
 </head>
 <body>
-  <header>
-    <h1>WEB DEVELOPMENT</h1>
-  </header>
+    <h2>HTML Form</h2>
+    <form>
+      
+        <label for="text_input">Text Input:</label>
+        <input type="text" id="text_input" name="text_input" required><br><br>
 
-  <div class="grid">
-    <div class="item">C</div>
-    <div class="item">JAVA</div>
-    <div class="item">HTML</div>
-    <div class="item">BOOTSTRAP</div>
-    <div class="item">JAVASCRIPT</div>
-    <div class="item">REACT</div>
-  </div>
+        <label for="password_input">Password:</label>
+        <input type="password" id="password_input" name="password_input" required><br><br>
 
-  <footer>
-    <h1>LANGUAGES</h1>
-   
-  </footer>
-   <a href="sanjay3.html">Link to page 3</a>
+        
+        <label for="checkbox_input">Checkbox:</label>
+        <input type="checkbox" id="checkbox_input" name="checkbox_input"><br><br>
+
+       
+        <label>Radio buttons:</label><br>
+        <label for="radio_option1">
+            <input type="radio" id="radio_option1" name="radio_options" value="C">C
+        </label><br>
+        <label for="radio_option2">
+            <input type="radio" id="radio_option2" name="radio_options" value="JAVA">JAVA
+        </label><br>
+        <label for="radio_option3">
+            <input type="radio" id="radio_option3" name="radio_options" value="JAVASCRIPT">JAVASCRIPT
+        </label><br><br>
+        <label for="dropdown_select">Dropdown Select:</label>
+        <select id="dropdown_select" name="dropdown_select" required>
+            <option value="">Select an option</option>
+            <option value="C">C</option>
+            <option value="JAVA">JAVA</option>
+            <option value="JAVASCRIPT">JAVASCRIPT</option>
+        </select><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
