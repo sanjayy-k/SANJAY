@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Grid Layout</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .item {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WEB DEVELOPMENT</h1>
+  </header>
+
+  <div class="grid">
+    <div class="item">C</div>
+    <div class="item">JAVA</div>
+    <div class="item">HTML</div>
+    <div class="item">BOOTSTRAP</div>
+    <div class="item">JAVASCRIPT</div>
+    <div class="item">REACT</div>
+  </div>
+
+  <footer>
+    <h1>LANGUAGES</h1>
+   
+  </footer>
+   <a href="sanjay3.html">Link to page 3</a>
+</body>
+</html>
