@@ -34,20 +34,22 @@
 </head>
 <body>
   <header>
-    <h1>Header</h1>
+    <h1>WEB DEVELOPMENT</h1>
   </header>
 
   <div class="grid">
-    <div class="item">Item 1</div>
-    <div class="item">Item 2</div>
-    <div class="item">Item 3</div>
-    <div class="item">Item 4</div>
-    <div class="item">Item 5</div>
-    <div class="item">Item 6</div>
+    <div class="item">C</div>
+    <div class="item">JAVA</div>
+    <div class="item">HTML</div>
+    <div class="item">BOOTSTRAP</div>
+    <div class="item">JAVASCRIPT</div>
+    <div class="item">REACT</div>
   </div>
 
   <footer>
-    <p>Footer</p>
+    <h1>LANGUAGES</h1>
+   
   </footer>
+   <a href="sanjay3.html">Link to page 3</a>
 </body>
 </html>
