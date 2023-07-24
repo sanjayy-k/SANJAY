@@ -34,8 +34,6 @@
             <option value="JAVA">JAVA</option>
             <option value="JAVASCRIPT">JAVASCRIPT</option>
         </select><br><br>
-
-        <!-- Submit button -->
         <input type="submit" value="Submit">
     </form>
 </body>
