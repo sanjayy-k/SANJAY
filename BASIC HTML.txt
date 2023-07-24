@@ -10,51 +10,51 @@
 <body>
     <!-- Header -->
     <header>
-        <h1>Welcome to My Basic Web Page</h1>
+        <h1>Hi Everyone I am Sanjay!!</h1>
         <nav>
             <a href="#home">Home</a>
-            <a href="#about">About</a>
+            <a href="#w3schools.com">About</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <!-- Main Content Area -->
     <main>
         <section>
-            <h2>About Me</h2>
-            <img src="your-image-url.jpg" alt="My Profile Picture">
+            <h1>I am an engineering student at<a href="https://kce.ac.in/">Karpagam College Of Engineering</a></h1>
+           
+           <img src="C:\Users\Ajay\Downloads\1690203436259.jpeg" height="400" width="600">
             <p>
-                Hello! I am a web developer passionate about creating web pages with HTML, CSS, and JavaScript.
+                 I am a web developer passionate about creating web pages with HTML, CSS, and JavaScript.
             </p>
             <p>
-                In my free time, I enjoy reading, playing guitar, and exploring new technologies.
+                In my free time, I enjoy travelling,playing games, and exploring new technologies.
             </p>
         </section>
 
         <section>
             <h2>My Skills</h2>
             <ul>
+                <li>C</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>JavaScript</li>
-                <li>React</li>
+                <li>Java</li>
             </ul>
         </section>
 
         <section>
             <h2>Contact Me</h2>
             <p>
-                You can reach out to me via email at <a href="mailto:youremail@example.com">youremail@example.com</a>.
+                You can reach out to me via email at <a href="ssanjay4269@gmail.com">ssanjay4269@gmail.com</a>.
             </p>
         </section>
     </main>
 
-    <!-- Footer -->
+    
     <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <p style=color:blue>&copy; 2023 Your Name. All rights reserved.</p>
     </footer>
-
+<a href="sanjay2.html">Link to page 2</a>
 </body>
 
 </html>
-save as index.html
